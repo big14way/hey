@@ -2,7 +2,17 @@
 
 ## WalletConnect Integration
 
-Hey includes full WalletConnect v2 support for seamless wallet connections. The project is configured with WalletConnect Project ID for mobile and desktop wallet compatibility.
+Hey includes enhanced WalletConnect v2 support powered by Reown AppKit for seamless wallet connections across mobile and desktop platforms.
+
+**Features:**
+- WalletConnect v2 with QR code modal for mobile wallets
+- Support for 100+ wallets including MetaMask, Coinbase Wallet, Rainbow, and more
+- Native wagmi integration for type-safe wallet interactions
+- Family Accounts connector for advanced account management
+- Automatic wallet reconnection on page refresh
+
+**Configuration:**
+The WalletConnect Project ID is configured in `packages/data/constants.ts` and can be overridden via environment variables. See `.env.example` for setup instructions.
 
 ## Requirements
 
