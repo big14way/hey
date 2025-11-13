@@ -1,5 +1,9 @@
 # Hey Monorepo
 
+## WalletConnect Integration
+
+Hey includes full WalletConnect v2 support for seamless wallet connections. The project is configured with WalletConnect Project ID for mobile and desktop wallet compatibility.
+
 ## Requirements
 
 To start working with the Hey monorepo, ensure the following tools are installed:
